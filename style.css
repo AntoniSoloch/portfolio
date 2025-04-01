@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+}
+.sidebar{
+    height: 100%;
+    width: 30%;
+    background-color: #eee;
+}
+main{
+    height: 100%;
+    width: 70%;
+    background-color: #fcfcfc;
+}
+h1 ,h2{
+    font-size: 50px;
+    margin: 10%;
+    font-weight: 500;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    margin: 10%;
+    font-size: 22px;
+    font-weight: 500;
+}
