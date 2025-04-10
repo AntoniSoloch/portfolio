@@ -1,15 +1,15 @@
-body{
+body, html{
     display: flex;
     align-items: center;
     font-family: "Raleway", sans-serif;
-    height: 900px;
+    height: 1400px;
     width: 1200px;
     margin: auto;
 }
 .sidebar{
     height: 100%;
     width: 30%;
-    background-color: #eee;
+    background-color: #efefef;
 }
 main{
     height: 100%;
@@ -24,8 +24,18 @@ h1 ,h2{
 h2{
     font-size: 30px;
 }
-p{
+p, ul{
     margin: 10%;
     font-size: 22px;
     font-weight: 500;
+}
+li{
+    margin-top: 20px !important;
+}
+a{
+    color: #4b4b4b;
+}
+main hr{
+    width: 70%;
+    margin-left: 20%;
 }
